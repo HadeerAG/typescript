@@ -1,0 +1,18 @@
+{
+  "name": "assignment-12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "concurrently \"tsc --watch\" \"node dist/index.js\"",
+    "dev": "concurrently \"tsc --watch\" \"nodemon dist/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "concurrently": "^10.0.7",
+    "express": "^5.3.0"
+  }
+}
